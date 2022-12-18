@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Estadistiques
+  m_EditorClassIdentifier: 
+  categoryName: "Estad\xEDstiques"
+  questions:
+  - questionInfo: La trombosis acostuma a ser inevitable
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Fals
+  - questionInfo: Quantes persones estan afectades per la trombosis?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 2 per cada 1000 habitants
+    - 1 per cada 100000 habitants
+    - 2 per cada 100000 habitants
+    - 1 per cada 1000 habitants
+    correctAns:
+    - 2 per cada 1000 habitants
+  - questionInfo: "Quina \xE9s la mortalitat de la trombosis a Europa?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1%
+    - 7%
+    - 24%
+    - 36%
+    correctAns:
+    - 36%
+  - questionInfo: "El 25-50% del supervivents de trombosis desenvolupa mol\xE8sties
+      cr\xF2niques de les cames que redueixen severament la mobilitat."
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Cert
+  - questionInfo: "La trombosis \xE9s la primera causa de mort entre les embarassades"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Cert
+  - questionInfo: "La trombosis \xE9s la segona causa de mort entre el pacients oncol\xF2gic
+      tractats amb quimioter\xE0pia"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Cert
+  - questionInfo: "El ____ de la predisposici\xF3 a la trombosis \xE9s atribuible
+      a factors gen\xE8tics"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 20%
+    - 40%
+    - 60%
+    - 80%
+    correctAns:
+    - 60%
+  - questionInfo: "La trombosis est\xE0 relacionada amb un ____ de morts en el mon "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 10%
+    - 25%
+    - 40%
+    - 50%
+    correctAns:
+    - 25%
+  - questionInfo: "Quin \xE9s el cost econ\xF2mic a Espanya (2006) de la trombosis
+      (hospitalitzaci\xF3, seguiment, medicaments, seq\xFCeles)?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "15,5 milions d\u2019euros"
+    - "65,2 milions d\u2019euros"
+    - "75,5 milions d\u2019euros"
+    - "101,3 milions d\u2019euros"
+    correctAns:
+    - "75,5 milions d\u2019euros"
+  - questionInfo: "En quina posici\xF3 est\xE0 la trombosis respecte a la causa de
+      mortalitat hospital\xE0ria en patologies evitables? "
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - 1
+    - 2
+    - 5
+    - 10
+    correctAns:
+    - 1

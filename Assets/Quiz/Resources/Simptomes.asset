@@ -1,0 +1,70 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Simptomes
+  m_EditorClassIdentifier: 
+  categoryName: Simptomes
+  questions:
+  - questionInfo: "Quin d\u2019aquests no s\xF3n s\xEDmptomes de la trombosis?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - "Sensaci\xF3 de dolor a la cama"
+    - Cama inflada
+    - "Sensaci\xF3 de calor a la cama"
+    - "Sensaci\xF3 de fred a la cama"
+    correctAns:
+    - "Sensaci\xF3 de fred a la cama"
+  - questionInfo: En quin moment hauries de trucar al metge per una posible trombosis?
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Tos amb sang
+    - Pols anormalement lent
+    - "V\xF2mits"
+    - Febre exagerada
+    correctAns:
+    - Tos amb sang
+  - questionInfo: "La trombosis es pot produir al bra\xE7."
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Cert
+  - questionInfo: "La trombosis es produeix a l\u2019\xF3s"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Fals
+  - questionInfo: La trombosis no es pot produir fora de les extremitats
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Fals

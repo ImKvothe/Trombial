@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f611d797432e3f846885b2b12fde5f35, type: 3}
+  m_Name: Habits
+  m_EditorClassIdentifier: 
+  categoryName: "H\xE0bits"
+  questions:
+  - questionInfo: "Quin d\u2019aquests h\xE0bits no ajuda a prevenir la trombosis?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Dieta baixa en sal
+    - "Aixecar les cames de tant en tant per sobre l\u2019altura del cor"
+    - "Utilitzar roba atape\xEFda"
+    - Seguir el tractament del metge
+    correctAns:
+    - "Utilitzar roba atape\xEFda"
+  - questionInfo: "Quin d\u2019aquests h\xE0bits pot ajudar a prevenir la trombosis?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Anar al bar cada dia
+    - Menjar molts carbohidrats
+    - "Fer activitat f\xEDsica"
+    - Fumar poc
+    correctAns:
+    - "Fer activitat f\xEDsica"
+  - questionInfo: Escull tots els factors de risc de la trombosis (multi)
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Fumar
+    - "Estr\xE9s"
+    - Dormir 8h diaries
+    - Colesterol
+    correctAns:
+    - Colesterol
+    - "Estr\xE9s"
+    - Fumar
+  - questionInfo: "Quin d\u2019aquests factors de risc \xE9s evitable?"
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Sedentarisme intens
+    - "Edat avan\xE7ada"
+    - Enfermetats infeccioses
+    - "Predisposici\xF3 gen\xE8tica"
+    correctAns:
+    - Sedentarisme intens
+  - questionInfo: 'Quins factors augmenten el risc de presentar una trombosis venosa
+      profunda? (multi) '
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Aixecar pesos
+    - Edat
+    - "Presencia d\u2019un cateter a una vena central"
+    - Ser dona
+    correctAns:
+    - Edat
+    - "Presencia d\u2019un cateter a una vena central"
+  - questionInfo: "Quin \xE9s el medicament que m\xE9s s'utilitza per tractar la TVP"
+    questionType: 1
+    questionImage: {fileID: 21300000, guid: 0f2643272f90cc74aaa62fc19a8c7f18, type: 3}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Anticoagulants
+    - Antibiotics
+    - Antiinflamatoris
+    - Antidepressius
+    correctAns:
+    - Anticoagulants
+  - questionInfo: Existeixen els anticoagulants injectables
+    questionType: 0
+    questionImage: {fileID: 0}
+    audioClip: {fileID: 0}
+    videoClip: {fileID: 0}
+    options:
+    - Cert
+    - Fals
+    correctAns:
+    - Cert
